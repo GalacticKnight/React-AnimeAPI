@@ -1,0 +1,53 @@
+#animecontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 15rem;
+    margin: 10px;
+    transition: transform 1s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 5px grey, -2px -2px 5px grey;
+}
+
+.search-bar-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px #ddd;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    padding: 0 15px;
+    height: 2.5rem; 
+
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+    font-size: 1.25rem;
+    width: 100%;
+    margin-left: 5px;
+    outline: none;
+}
+
+#search-icon {
+    color: rgba(63, 63, 63, 0.932);
+}
+
+/* pagination css */
+.paginationBttns {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    gap: 50px;
+}
